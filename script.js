@@ -166,7 +166,7 @@ gibran_form.addEventListener('submit', function (e) {
   if (!valid) return;
 
   // Kirim lewat aplikasi email (mailto) ke pemilik website
-  const tujuan = 'emailkamu@gmail.com'; // <-- GANTI dengan email kamu
+  const tujuan = 'gibranaji93@gmail.com'; 
   const isi = 'Nama: ' + nama + '\nEmail: ' + email + '\n\n' + pesan;
   window.location.href = 'mailto:' + tujuan +
     '?subject=' + encodeURIComponent(subjek) +
